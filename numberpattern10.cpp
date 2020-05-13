@@ -7,7 +7,7 @@ main(){
 	cout<<"The pattern is: \n";					//   333
 	for(i=1;i<=n;i++){						//   4444
 		for(j=1;j<=i;j++){					//   55555
-			cout<<i;			       // number pattern problem
+			cout<<i;			        // number pattern problem
 		}
 		cout<<endl;
 	}
