@@ -1,13 +1,25 @@
+/*
+Pattern:
+n: 5
+11111
+11111
+11111
+11111
+11111
+*/
+
+//////// CODE /////////
+
 #include <iostream>
 using namespace std;
-int main(){																		//11111
-	int i,j,n;																	//11111
-	cin>>n;																		  //11111
-	for(i=1;i<=n;i++){													//11111
-		for(j=1;j<=n;j++){												//11111
+int main(){
+	int i,j,n;
+	cin>>n;
+	for(i=1;i<=n;i++){
+		for(j=1;j<=n;j++){
 			cout<<"1";
-		}						      												// 'i' is for row
-		cout<<endl;																// 'j' is for column
+		}
+		cout<<endl;
 	}
 	return 0;
 }
